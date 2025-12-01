@@ -1,4 +1,4 @@
-# assignment-Levontin
+# assignment-V2
 # 🛒 Product Catalog Pipeline
 
 An intelligent product catalog management system that extracts, validates, and normalizes product data from multiple sources (CSV & unstructured text files) using OpenAI, then exposes them through an interactive chatbot interface.
@@ -18,7 +18,7 @@ An intelligent product catalog management system that extracts, validates, and n
 
 ## 📁 Project Structure
 ```
-assignment-Levontin/
+assignment-V2/
 ├── .env                      # Local environment variables (ignored)
 ├── .env.example              # Template for .env
 ├── configs/
@@ -74,7 +74,7 @@ assignment-Levontin/
 ```bash
 # Clone the repository
 git clone <repo-url>
-cd assignment-Levontin
+cd assignment-V2
 
 # Install dependencies with Poetry
 make install
