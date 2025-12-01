@@ -8,7 +8,7 @@ from typing import Dict, List
 import pandas as pd
 
 from lib.constants import PRODUCT_FIELDS
-from lib.utils import normalize_in_stock, normalize_price
+from lib.utils import normalize_in_stock, normalize_price, normalize_category
 
 
 def parse_colors(value: object | None) -> List[str]:

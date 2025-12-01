@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import Optional
 
 import pandas as pd
+import re
 
 # common normalization to both txt and csv files
 
@@ -40,3 +41,22 @@ def normalize_in_stock(value: bool | str | int | float | None) -> bool:
         return False
 
     return True
+
+
+def normalize_category(value: object | None) -> str:
+    """Nettoie et standardise la catégorie, en gardant une catégorie principale.
+
+    Exemple :
+    - 'electronics / lighting' -> 'electronics'
+    - 'furniture, office' -> 'furniture'
+    """
+    if value is None or (isinstance(value, float) and pd.isna(value)):
+        return ""
+
+    s = str(value).lower().strip()
+    #s = s.replace('"', "").replace("'", "").strip()
+    # on découpe sur séparateurs fréquents
+    parts = re.split(r"[,/&]+", s)
+    parts = [p.strip() for p in parts if p.strip()]
+
+    return parts[0] if parts else ""
