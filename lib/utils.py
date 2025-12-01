@@ -1,9 +1,9 @@
 from __future__ import annotations
 
+import re
 from typing import Optional
 
 import pandas as pd
-import re
 
 # common normalization to both txt and csv files
 
@@ -54,7 +54,7 @@ def normalize_category(value: object | None) -> str:
         return ""
 
     s = str(value).lower().strip()
-    #s = s.replace('"', "").replace("'", "").strip()
+    # s = s.replace('"', "").replace("'", "").strip()
     # on découpe sur séparateurs fréquents
     parts = re.split(r"[,/&]+", s)
     parts = [p.strip() for p in parts if p.strip()]

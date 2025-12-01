@@ -9,7 +9,8 @@ from loguru import logger
 from lib.config import get_config
 from lib.constants import PRODUCT_FIELDS
 from lib.openai_client import client
-from lib.utils import normalize_in_stock, normalize_price, normalize_category
+from lib.utils import normalize_category, normalize_in_stock, normalize_price
+
 _config = get_config()
 
 

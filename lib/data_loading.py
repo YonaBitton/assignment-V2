@@ -1,8 +1,7 @@
+import re
 from pathlib import Path
 
 import pandas as pd
-import re
-
 
 
 def load_csv_products(csv_dir: Path) -> pd.DataFrame:
