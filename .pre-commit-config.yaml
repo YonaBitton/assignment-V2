@@ -1,0 +1,54 @@
+default_language_version:
+  python: python3.10
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+        exclude: '.gitlab*'
+      - id: check-toml
+      - id: check-json
+      - id: check-added-large-files
+
+  - repo: local
+    hooks:
+      - id: ruff-isort
+        name: ruff isort
+        entry: poetry run ruff check --fix --select I --config pyproject.toml
+        types: [python]
+        language: system
+        stages: [commit, push]
+
+      - id: ruff-format
+        name: ruff format
+        entry: poetry run ruff format --config pyproject.toml
+        types: [python]
+        language: system
+        stages: [commit, push]
+
+      - id: ruff-check
+        name: ruff check
+        entry: poetry run ruff check --config pyproject.toml
+        types: [python]
+        language: system
+        stages: [commit, push]
+
+      - id: nbstripout
+        name: nbstripout
+        entry: poetry run nbstripout
+        types: [file]
+        files: (.ipynb)$
+        exclude: ^notebooks/clean_assignment\.ipynb$
+        language: system
+        stages: [commit, push]
+
+      - id: codespell
+        name: codespell markdown
+        entry: poetry run codespell
+        types: [markdown]
+        language: system
+        stages: [commit, push]
+        exclude: README.md

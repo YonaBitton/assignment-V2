@@ -1,0 +1,175 @@
+[
+  {
+    "product_name": "Chaise de bureau ErgoFlex",
+    "price": 249.0,
+    "category": "furniture",
+    "colors": [
+      "noir"
+    ],
+    "description_short": "Chaise ergonomique avec soutien lombaire réglable, idéale pour de longues journées de travail.",
+    "features": [
+      "Accoudoirs 3D",
+      "Dossier mesh respirant",
+      "Hauteur réglable"
+    ],
+    "in_stock": true,
+    "raw_file": "chaise_bureau.csv",
+    "validation_status": "ok",
+    "validation_errors": []
+  },
+  {
+    "product_name": "Clavier mécanique FusionKey 75",
+    "price": 119.9,
+    "category": "electronics",
+    "colors": [
+      "noir",
+      "blanc cassé"
+    ],
+    "description_short": "Clavier mécanique compact 75 %, switches tactiles, idéal pour le télétravail et le gaming léger.",
+    "features": [
+      "Switches hot",
+      "swap",
+      "Rétroéclairage ajustable",
+      "Câble USB",
+      "C détachable"
+    ],
+    "in_stock": true,
+    "raw_file": "clavier_mecanique.csv",
+    "validation_status": "ok",
+    "validation_errors": []
+  },
+  {
+    "product_name": "Gourde isotherme PolarSteel 750ml",
+    "price": 34.5,
+    "category": "accessory",
+    "colors": [
+      "acier",
+      "bleu océan",
+      "rouge brique"
+    ],
+    "description_short": "Bouteille isotherme en inox, conserve les boissons au froid jusqu’à 24h et au chaud 12h.",
+    "features": [
+      "Sans BPA",
+      "Étanche",
+      "Revêtement anti",
+      "choc"
+    ],
+    "in_stock": true,
+    "raw_file": "gourde_isotherme.csv",
+    "validation_status": "ok",
+    "validation_errors": []
+  },
+  {
+    "product_name": "Support écran DualLift",
+    "price": 159.0,
+    "category": "office",
+    "colors": [
+      "noir"
+    ],
+    "description_short": "Bras articulé pour deux écrans 27 pouces, ajustable en hauteur et en profondeur.",
+    "features": [
+      "Gestion des câbles",
+      "Fixation par pince ou passe",
+      "câble",
+      "Réglage indépendant des écrans"
+    ],
+    "in_stock": false,
+    "raw_file": "support_ecran.csv",
+    "validation_status": "ok",
+    "validation_errors": []
+  },
+  {
+    "product_name": "Montre connectée AX490",
+    "price": 129.0,
+    "category": "wearable",
+    "colors": [
+      "noir",
+      "bleu"
+    ],
+    "description_short": "Montre élégante pour le quotidien avec capteur cardiaque, GPS intégré et autonomie d'environ 4 jours.",
+    "features": [
+      "Ultra légère",
+      "Compatible iOS et Android",
+      "Notifications appel / SMS / apps"
+    ],
+    "in_stock": false,
+    "raw_file": "fiche1_montre.txt",
+    "validation_status": "ok",
+    "validation_errors": []
+  },
+  {
+    "product_name": "Casque audio NovaSound Pro",
+    "price": 89.9,
+    "category": "electronics / audio",
+    "colors": [
+      "noir mat"
+    ],
+    "description_short": "Casque circum-aural à réduction de bruit active, idéal pour les open-spaces et les voyages.",
+    "features": [
+      "Réduction de bruit active",
+      "Autonomie jusqu'à 30h",
+      "Charge USB-C rapide"
+    ],
+    "in_stock": true,
+    "raw_file": "fiche2_casque.txt",
+    "validation_status": "ok",
+    "validation_errors": []
+  },
+  {
+    "product_name": "Sac à dos UrbanTrail 25L",
+    "price": 59.0,
+    "category": "accessory",
+    "colors": [
+      "gris",
+      "vert olive"
+    ],
+    "description_short": "Sac à dos conçu pour la ville et les petites randonnées, avec compartiment ordinateur 15 pouces et tissu déperlant.",
+    "features": [
+      "Compartiment ordinateur 15 pouces",
+      "Poche secrète au dos",
+      "Tissu déperlant",
+      "Léger",
+      "Multiples rangements",
+      "Bande réfléchissante"
+    ],
+    "in_stock": false,
+    "raw_file": "fiche3_sac_a_dos.txt",
+    "validation_status": "ok",
+    "validation_errors": []
+  },
+  {
+    "product_name": "T-shirt technique RunDry",
+    "price": 24.5,
+    "category": "clothing",
+    "colors": [
+      "bleu marine"
+    ],
+    "description_short": "T-shirt respirant pour le running, sèche rapidement et limite les mauvaises odeurs.",
+    "features": [
+      "Matière respirante",
+      "Coutures plates anti-irritation"
+    ],
+    "in_stock": true,
+    "raw_file": "fiche4_tee_shirt.txt",
+    "validation_status": "ok",
+    "validation_errors": []
+  },
+  {
+    "product_name": "Lampe de bureau FlexiBright",
+    "price": 39.0,
+    "category": "electronics / lighting",
+    "colors": [
+      "blanche"
+    ],
+    "description_short": "Une lampe LED avec bras flexible, 3 niveaux de luminosité et port USB de recharge.",
+    "features": [
+      "Faible consommation",
+      "Température de couleur ajustable",
+      "Base antidérapante"
+    ],
+    "in_stock": false,
+    "raw_file": "fiche5_lampe.txt",
+    "validation_status": "ok",
+    "validation_errors": []
+  }
+]

@@ -1,0 +1,82 @@
+# -------------------------
+# Python & Poetry
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.db
+*.sqlite
+*.sqlite3
+
+# Environnements virtuels
+.env
+.venv/
+venv/
+env/
+.poetry/
+
+# Fichiers temporaires Python
+*.log
+*.tmp
+*.bak
+*.swp
+
+# -------------------------
+# VS Code / Cursor
+# -------------------------
+.vscode/
+cursor.code-workspace
+
+# -------------------------
+# Jupyter Notebooks
+# -------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# -------------------------
+# Data Science : données d'entrée
+# -------------------------
+
+# Ignorer toutes les data sources (TXT + CSV d’origine)
+data/*
+!data/.gitkeep     # pour garder la structure du dossier
+
+# -------------------------
+# Output (fichiers produits)
+# -------------------------
+# ❗ IMPORTANT :
+# Nous gardons ENTIEREMENT output_data/
+# car les livrables demandent de fournir les fichiers .csv et .json générés.
+# Donc : NE PAS l'ignorer.
+
+# output_data/  <-- ON NE MET PAS CETTE LIGNE
+
+# -------------------------
+# Dossiers internes inutiles
+# -------------------------
+cache/
+logs/
+outputs/
+models/
+figures/
+
+# Formats vraiment lourds
+*.zip
+*.tar
+*.gz
+
+# -------------------------
+# Images & médias (facultatif)
+# -------------------------
+*.mp4
+*.mp3
+
+# -------------------------
+# OS Specific
+# -------------------------
+.DS_Store
+Thumbs.db

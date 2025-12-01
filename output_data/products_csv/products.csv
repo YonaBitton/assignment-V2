@@ -1,0 +1,10 @@
+product_name,price,category,in_stock,validation_status
+Chaise de bureau ErgoFlex,249.0,furniture,True,ok
+Clavier mécanique FusionKey 75,119.9,electronics,True,ok
+Gourde isotherme PolarSteel 750ml,34.5,accessory,True,ok
+Support écran DualLift,159.0,office,False,ok
+Montre connectée AX490,129.0,wearable,False,ok
+Casque audio NovaSound Pro,89.9,electronics / audio,True,ok
+Sac à dos UrbanTrail 25L,59.0,accessory,False,ok
+T-shirt technique RunDry,24.5,clothing,True,ok
+Lampe de bureau FlexiBright,39.0,electronics / lighting,False,ok
