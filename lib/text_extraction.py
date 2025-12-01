@@ -9,7 +9,7 @@ from loguru import logger
 from lib.config import get_config
 from lib.constants import PRODUCT_FIELDS
 from lib.openai_client import client
-from lib.utils import normalize_in_stock, normalize_price
+from lib.utils import normalize_category, normalize_in_stock, normalize_price
 
 _config = get_config()
 
@@ -67,6 +67,7 @@ Extrait les informations suivantes :
 
     data["in_stock"] = normalize_in_stock(data["in_stock"])
     data["price"] = normalize_price(data["price"])
+    data["category"] = normalize_category(data["category"])
 
     return data
 
